@@ -64,7 +64,7 @@ try:
         
         # Если температура выше порога - вращаем мотором
         if temperature > threshold_temperature:
-            pwm.start(100)  # Максимальная скорость
+            pwm.start(99)  # Максимальная скорость
         else:
             pwm.stop()  # Остановка мотора
         
